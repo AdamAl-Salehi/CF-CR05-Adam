@@ -1,0 +1,38 @@
+var movies = `[
+    {
+        "movieName": "Joker",
+        "image": "img/Joker.png",
+        "description": "In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime.",
+        "likes": 8
+    },
+    {
+        "movieName": "Shutter Island",
+        "image": "img/shutterisland.png",
+        "description": "In 1954, a U.S. Marshal investigates the disappearance of a murderer who escaped from a hospital for the criminally insane.",
+        "likes": 9
+    },
+    {
+        "movieName": "The Prestige",
+        "image": "img/prestige.png",
+        "description": "After a tragic accident, two stage magicians engage in a battle to create the ultimate illusion while sacrificing everything they have to outwit each other.",
+        "likes": 9
+    },
+    {
+        "movieName": "The Dark Knight",
+        "image": "img/theDarkKnight.png",
+        "description": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological tests of his ability to fight injustice.",
+        "likes": 10
+    },
+    {
+        "movieName": "Interstellar",
+        "image": "img/interstellar.png",
+        "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+        "likes": 10
+    },
+    {
+        "movieName": "Tenet",
+        "image": "img/tenet.jpg",
+        "description": "A secret agent embarks on a dangerous, time-bending mission to prevent the start of World War III.",
+        "likes": 8
+    }
+]`

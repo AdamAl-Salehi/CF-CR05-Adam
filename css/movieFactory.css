@@ -1,0 +1,194 @@
+body {
+  background-color: #1D2329;
+}
+
+.header {
+  background-color: black;
+  padding: 10px;
+  font-size: 4rem;
+}
+
+.nav {
+  background-color: #454545;
+  font-weight: bold;
+  padding: 10px;
+  padding-left: 15px;
+  font-size: 2rem;
+}
+
+.movSect {
+  font-size: 2rem;
+}
+
+#sortSlct {
+  direction: rtl;
+  font-size: 1.5rem;
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  right: 10px;
+  color: white;
+}
+
+option {
+  color: black;
+}
+
+.movCard {
+  margin-top: 2rem;
+}
+
+.movCards {
+  background: #181818;
+  color: white;
+}
+
+.movieTitel {
+  font-size: 2rem;
+}
+
+.likeBtn {
+  color: transparent;
+  text-shadow: 0 0 0 #32A23D;
+  font-size: 2rem;
+}
+
+.btnCntnr {
+  color: #32A23D;
+  font-size: 2rem;
+}
+
+.likesCount {
+  text-align: center;
+  height: 4rem;
+  width: 4rem;
+  font-size: 3rem;
+  border-radius: 40px;
+  background-color: #32A23D;
+  margin-bottom: 10px;
+}
+
+.aligner {
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+}
+
+.btnflex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer {
+  background-color: black;
+  font-size: 3rem;
+  color: white;
+  margin-top: -15px;
+  width: 100%;
+  text-align: center;
+  padding: 40px;
+}
+
+.push {
+  height: 5rem;
+  margin-top: 20px;
+}
+
+img {
+  width: 12rem;
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  img {
+    width: 8rem;
+  }
+  .header {
+    font-size: 2rem;
+    padding: 1.5rem;
+  }
+  .nav {
+    font-size: 1rem;
+  }
+  .movSect {
+    font-size: 1rem;
+  }
+  #sortSlct {
+    font-size: 1rem;
+  }
+  .movieTitel {
+    font-size: 1.2rem;
+    padding-left: 10px;
+  }
+  .description {
+    font-size: 0.6rem;
+    padding-left: 10px;
+  }
+  .likeBtn {
+    font-size: 1rem;
+  }
+  .btnCntnr {
+    font-size: 1rem;
+  }
+  .likesCount {
+    font-size: 1.5rem;
+    height: 2rem;
+    width: 2rem;
+  }
+  .footer {
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1023px) {
+  img {
+    width: 10rem;
+  }
+  .header {
+    font-size: 2.5rem;
+    padding: 1.5rem;
+  }
+  .nav {
+    font-size: 1.5rem;
+  }
+  .movSect {
+    font-size: 1.5rem;
+  }
+  #sortSlct {
+    font-size: 1.5rem;
+  }
+  .movieTitel {
+    font-size: 1.5rem;
+    padding-left: 10px;
+  }
+  .description {
+    font-size: 0.8rem;
+    padding-left: 10px;
+  }
+  .likeBtn {
+    font-size: 1.2rem;
+  }
+  .btnCntnr {
+    font-size: 1.2rem;
+  }
+  .likesCount {
+    font-size: 1.5rem;
+    height: 2rem;
+    width: 2rem;
+  }
+  .footer {
+    font-size: 2rem;
+    padding: 2rem;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  img {
+    width: 16rem;
+  }
+  .description {
+    font-size: 1.5rem;
+  }
+}
+/*# sourceMappingURL=movieFactory.css.map */
